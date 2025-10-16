@@ -1,0 +1,26 @@
+<!-- Empezamos con la estructura básica -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Después enlazar los archivos CSS y JavaScript -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería de animales</title>
+
+  <link rel="stylesheet" href="styles/foto.css">
+  <!-- Usamos defer para cargar los scripts después del HTML -->
+  <script src="js/foto-list.js" defer></script>
+  <script src="js/foto.js" defer></script>
+</head>
+
+<body>
+  <!-- Luego creamos las secciones necesarias -->
+  <h1>Galería de animales</h1>
+  <!-- Sección para mostrar el álbum de fotos -->
+  <section id="album-view"></section>
+  <!-- Sección para el modal de vista ampliada -->
+  <section id="modal-view" class="hidden"></section>
+</body>
+
+</html>
